@@ -3,3 +3,4 @@ document.getElementById('surpriseBtn').addEventListener('click', function() {
     message.textContent = '✨ Ты нажал на кнопку! Это сюрприз! ✨';
     message.classList.remove('hidden');
     message.classList.add('show');
+});
